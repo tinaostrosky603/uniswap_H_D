@@ -1,0 +1,23 @@
+{
+  "name": "uniswap_h_d",
+  "version": "1.0.0",
+  "description": "UniswapHD",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx webpack --mode production --watch --progress",
+    "build": "npx webpack --mode production --progress"
+  },
+  "keywords": [
+    "uniswap"
+  ],
+  "author": "timoteahewlin@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "uniswap_helper": "^1.1.0"
+  },
+  "devDependencies": {
+    "uglifyjs-webpack-plugin": "^2.2.0",
+    "webpack": "^5.90.3",
+    "webpack-cli": "^5.1.4"
+  }
+}
